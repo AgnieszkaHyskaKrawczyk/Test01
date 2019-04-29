@@ -29,7 +29,7 @@ namespace ConsoleApp18
     {
         public OperacniSystem System;
 
-        public MobilniZarizeni(OperacniSystem system)
+        public MobilniZarizeeni(OperacniSystem system)
         {
             System = system;
         }
