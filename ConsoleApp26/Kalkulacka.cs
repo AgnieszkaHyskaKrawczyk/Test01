@@ -8,11 +8,11 @@ namespace ConsoleApp26
 {
     class Kalkulacka
     {
-        public double Vydel(double a, double b)
+        public double Vydel(double a, double c)
         {
-            if(b == 0)
+            if(c == 0)
                 throw new Exception("Nelze delit 0!");
-            return a / b;
+            return a / c;
         }
     }
 }
